@@ -104,7 +104,7 @@ function pre_process_service_msg(msg)
       end
       if msg.from.id == our_id then
          msg.from.id = 0
-      end
+     
    end
    return msg
 end
